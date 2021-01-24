@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
+    background-image: url(https://wallpaperaccess.com/full/866679.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    padding: 20px;
+}
+
+.home-container {
+    background-color: white;
+    text-align:center;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 60px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+
+.home-container > img {
+    width: 20%;
+}
+
+button {
+    background-color: #fff;
+    color: #15151e;
+    border: 2px solid #15151e(255, 255, 255);
+    border-radius: 5px;
+    padding: 5%;
+    margin: 10px;
+    transition: .3s;
+    outline: none;
+    font-size: 20px;
+}
+
+
+button:hover {
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn-small {
+    background-color: #fff;
+    color: #15151e;
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    transition: .3s;
+    outline: none;
+    font-size: 20px;
+}
+
+.form-code label {
+    font-size: 20px;
+    padding-bottom:10px ;
+}
+
+.form-code input {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 900;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgba(0, 0, 0, 0.3);
+    transition: .3s;
+    text-align: center;
+    width: 50%;
+}
+
+.form-code input::placeholder {
+    font-weight: 500;
+}
+
+.form-code input:focus {
+    border-width: 0 0 2px;
+    border-color: rgb(255, 0, 0);
+}
+
+.logo-code {
+    width: 15% !important;
+}
+
+.link-container i{
+    font-size: 1.5em;
+    color: black;
+    transition: .3s;
+}
+
+.link-container i:hover {
+    color: red;
+}
+
+table {
+    display: block;
+    height: 400px;
+    overflow: scroll;
+}
+
+thead th {
+    padding: 20px;
+    background-color: #15151ea1;
+    color: white;
+    width: 100vw;
+}
