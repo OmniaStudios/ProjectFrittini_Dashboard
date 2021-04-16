@@ -1,7 +1,15 @@
 import { Component } from "react";
 import { Link } from 'react-router-dom'
 
+
 class List extends Component {
+
+
+
+componentDidMount(){
+    fetch('/sasso');
+}
+
     render() {
         return (
             <section>
@@ -13,7 +21,7 @@ class List extends Component {
                     <div>
                         <table className="table" align="center">
                             <thead>
-                                <th>Id</th>
+                                <th>ID</th>
                                 <th>Nome utente</th>
                                 <th>Codice utente</th>
                                 <th>Data</th>
@@ -83,7 +91,7 @@ class List extends Component {
                         </table>
                     </div>
                 </div>
-            </section >
+            </section>
         )
     }
 }
